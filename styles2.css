@@ -1,0 +1,133 @@
+body{
+	margin: 0;
+	padding: 0;
+	padding-top: 700px;
+	background: url(tut3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1090px 600px;
+	font-family: sans-serif;
+}
+.sign_box{
+	width: 300px;
+	height: 420px;
+	background: #dcdcdc;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50% , -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	border-radius: 5%;
+	opacity: 75%;
+}
+.sign_box:hover{
+opacity: 100;
+}
+
+.avatar{
+width: 100px;
+height:80px;
+position: absolute;
+top: -70%;
+left: calc(50% - 50px);
+padding: 0  0 0 0;
+padding-top: 270px;
+border-bottom: 2px 2px grey;
+border-radius: 60px;
+border-top-right-radius: 60px;
+box-shadow:  6px 6px grey;
+
+
+}
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	font-size: 22px;
+	color: Grey;
+
+}
+
+.sign_box p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+
+}
+
+.sign_box input{
+	width: 250px;
+	margin-bottom: 20px;
+	box-shadow: 5px 5px 5px grey;
+	border-radius: 30px;
+
+}
+.sign_box input[type="text"] , input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #060a15;
+	font-size: 16px;
+
+}
+form{
+	padding-top: 20px;
+	
+}
+.sign_box input[type="submit"]{
+	border: none;
+	border-radius: none;
+	height: 40px;
+	color: #fff;
+	background: #fb2525;
+	font-size: 18px;
+	border-radius: 5px;
+}
+.sign_box input[type="submit"]:hover{
+	color: #000;
+	cursor: pointer;
+	font-size: 100%;
+	content: initial;
+
+}
+
+.sign_box a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: #0e1c3e;
+}
+.sign_box a:hover{
+	font-size: 15px;
+	text-decoration: none;
+}
+
+
+.customer-service .item {
+    cursor: pointer;
+    margin-top: 8px;
+    width: 56px;
+    height: 56px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    text-align: center;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    position: relative;
+    border: 1px solid #e9e9e9;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 4px 8px rgb(0 0 0 / 2%);
+    box-shadow: 0 4px 8px rgb(0 0 0 / 2%);
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-appearance: none;
+}
+
+

@@ -1,0 +1,7 @@
+This is the re-do of the existing prototype of school_transport.
+The actual system is also a working progress to keep my skills up to date and also keeping in mind with the current trends in Tech.
+
+* Also the system for school transport is in PHP format , please make use of XAMPP in order to be able to access my web pages , design and more
+* any IDE can be able to open the project 
+Least but not last thank you for taking this moment to go through my work , it means a lot to me and if any insights of what to improve please dont hesitate to share with me.
+
